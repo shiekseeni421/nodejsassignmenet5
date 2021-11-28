@@ -1,0 +1,3 @@
+what is middleware and why do we use express.json()?:-
+a middleware is runtime environment for Javascript Middleware. functions are functions that have access to the request object , the response object, and the next function in the application's request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.
+Express middleware are functions that execute during the lifecycle of a request to the Express server. Each middleware has access to the HTTP request and response for each route (or path) it's attached to. This “chaining” of middleware allows you to compartmentalize your code and create reusable middleware.
